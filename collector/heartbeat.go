@@ -40,7 +40,7 @@ var (
 	collectHeartbeatDatabase = kingpin.Flag(
 		"collect.heartbeat.database",
 		"Database from where to collect heartbeat data",
-	).Default("heartbeat").String()
+	).Default("percona").String()
 	collectHeartbeatTable = kingpin.Flag(
 		"collect.heartbeat.table",
 		"Table from where to collect heartbeat data",
